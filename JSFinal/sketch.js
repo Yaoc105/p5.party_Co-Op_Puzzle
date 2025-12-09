@@ -545,12 +545,13 @@ function winScene() {
           centerXPos,
           centerYPos + textSizeNum * 3
         );
-        } else 
-        {text(
+        } else {
+          text(
           "You and your teammate finished in " + timeMin + ":" + timeSec,
           centerXPos,
           centerYPos + textSizeNum * 3
-        );}
+          );
+        }
         if (clickCounter >= 3) {
           text(
             "Would you like to play again?",
